@@ -38,7 +38,7 @@
   }
   
   nav .array-inputs #a_generate {
-    background-color: snow;
+    background-color: transparent;
     border: none;
     outline: none;
     color: white;
@@ -63,7 +63,7 @@
   nav .header_right .nav-heading {
     display: inline-block;
     font-size: xxx-large;
-    padding: 3% 0%;
+    padding: 2% 0%;
   }
   
   nav .header_right .algos {
@@ -72,7 +72,7 @@
     -ms-grid-columns: (16.66667%)[6];
         grid-template-columns: repeat(6, 16.66667%);
     place-content: center;
-    padding: 2% 0%;
+    padding: 1% 0%;
   }
   
   nav .header_right .algos button {
@@ -80,12 +80,12 @@
     border: none;
     color: white;
     outline: none;
-    padding: 5% 0%;
+    padding: 0% 0%;
     font-size: x-large;
   }
   
   nav .header_right .algos button:hover {
-    background-color: blue;
+    background-color: rgb(255, 136, 0);
     cursor: pointer;
   }
   
@@ -110,20 +110,18 @@
   }
   
   nav .header_right .algos .butt_unselected:hover {
-    background-color: blue;
+        background-color: rgb(255, 136, 0);
     cursor: pointer;
   }
   
+
   section {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 20% 60% 20%;
-        grid-template-columns: 20% 60% 20%;
+    -ms-grid-columns: 10% 80% 10%;
+        grid-template-columns: 10% 80% 10%;
   }
   
-  section #Info_Cont1 {
-    padding: 20%;
-  }
   
   section #array_container {
     display: -webkit-box;
@@ -131,10 +129,6 @@
     display: flex;
     width: 100%;
     height: 70vh;
-  }
-  
-  section #Info_Cont2 {
-    padding: 20%;
   }
   
   .hide {
