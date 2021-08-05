@@ -5,7 +5,7 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: large;
     font-weight: unset;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   
   nav {
@@ -135,6 +135,23 @@
   .hide {
     display: none;
   }
+
+  footer{
+    max-width: 1300px;
+    height: 21px;
+    margin: 2 auto;
+    background-color: #383736;
+    color: white;
+    /* text-transform:lowercase; */
+}
+
+.footer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /*             SCREEN WIDTH < 600px               */
 
