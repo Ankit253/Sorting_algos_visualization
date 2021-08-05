@@ -1,6 +1,6 @@
 
 
-function Selection_sort()
+function Selection()
 {
     c_delay=0;
 

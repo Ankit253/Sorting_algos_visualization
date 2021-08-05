@@ -9,7 +9,7 @@
   }
   
   nav {
-    background-color: #4e4b49;
+    background-color: #383736;
     color: white;
     display: -ms-grid;
     display: grid;
@@ -101,7 +101,7 @@
   
   nav .header_right .algos .butt_selected {
     background-color: white;
-    color: green;
+    color: rgb(81, 85, 81);
   }
   
   nav .header_right .algos .butt_selected:hover {
@@ -125,7 +125,6 @@
 
   section #array_container {
     display: -webkit-box;
-    /* position:relative; */
     display: -ms-flexbox;
     display: flex;
     width: 100%;
