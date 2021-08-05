@@ -49,3 +49,39 @@ for(var i=0;i<butts_algos.length;i++)
 {
     butts_algos[i].addEventListener("click",runalgo);
 }
+
+function disable_buttons()
+{
+    for(var i=0;i<butts_algos.length;i++)
+    {
+        butts_algos[i].classList=[];
+        butts_algos[i].classList.add("butt_locked");
+
+        butts_algos[i].disabled=true;
+        inp_as.disabled=true;
+        inp_gen.disabled=true;
+        inp_aspeed.disabled=true;
+    }
+}
+
+function runalgo()
+{
+    disable_buttons();
+
+    this.classList.add("butt_selected");
+    switch(this.innerHTML)
+    {
+        case "Bubble":Bubble();
+                        break;
+        case "Selection":Selection_sort();
+                        break;
+        case "Insertion":Insertion();
+                        break;
+        case "Merge":Merge();
+                        break;
+        // case "Quick":Quick();
+        //                 break;
+        // case "Heap":Heap();
+        //                 break;
+    }
+}

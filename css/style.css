@@ -41,7 +41,7 @@
     background-color: transparent;
     border: none;
     outline: none;
-    color: rgb(175, 44, 44);
+    color: rgb(88, 81, 81);
     padding: 4% 0% 0% 0%;
     padding-left: 5%;
   }
@@ -135,3 +135,19 @@
     display: none;
   }
   
+/*
+@media (max-width: 480px)//Mobiles
+{
+    
+}
+
+@media (min-width: 481px) and (max-width: 1250px)//Tablets
+{
+
+}
+
+@media (min-width: 1251px)//Laptops and up
+{
+
+}
+*/
